@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Phantom by HTML5 UP</title>
+		<title>Landon George - Software Engineering</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -40,62 +40,37 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="elements.html">Home</a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<header>
-								<h1>Hi! Welcome to my portfolio, feel free to check out the projects I have worked on below!<br />
-							</header>
-							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<a href="highlow.html">
-										<h2>High/Low Game</h2>
-										<div class="content">
-											<p>Utilized PHP to create a number guessing game complete with user account creation, account authentication, and utilizing server-side code for game logic.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<a href="californiaSpeed.html">
-										<h2>California Speed Game</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<a href="scholarshipApp.html">
-										<h2>Scholarship App Maintenance</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<a href="hangman.html">
-										<h2>Hangman Game</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-							</section>
+							<h1>High/Low Game</h1>
+							<span class="image main"><img src="images/highLowGuessing.gif" alt="" /></span>
+							<span><h2>Technologies/Software used: PHP, Bootstrap, MySQL, HTML5, CSS3, and PhpStorm</h2></span>
+							<p>In this individual project I utilized PHP for server-side code in order to hide some parts of the game logic. One specific part that is hidden from the user on the front-end is the number they are trying to guess. This application also does user account creation and authentication utilizing a MySQL database and SHA256 hashing in order to protect user passwords. One particular challenge I faced during this project was displaying a high score table of the top 10 scores when the user won. I overcame this challenge by utilizing PHP to fetch data from my database and display it in a table using a while loop to create new rows for each score entry. In addition this website is hosted via InfinityFree with SSL enabled and can be visted with the button below!</p>
+							<a href="https://landongeorgespring2022.epizy.com/HighLow/" class="button primary">Try It!</a>
+							<h2>High Score table code</h2>
+							<pre><code>
+&lt;tbody>&lt;?php
+	//Prepare select statement
+	$sql = "SELECT username,score,timestamp FROM HighScores ORDER BY score ASC LIMIT 10";
+	$result = mysqli_query($link,$sql);
+	$count = 1;
+	while($highScoreData = mysqli_fetch_array($result)){
+		echo "
+					&lt;tr>
+					&lt;th> scope='row'>" . $count . "&lt;/th>
+					&lt;td>" . $highScoreData['username'] . "&lt;/td>
+					&lt;td>" . $highScoreData['score']."&lt;/td>
+					&lt;td>" . $highScoreData['timestamp'] . "&lt;/td>
+					&lt;/tr>
+				";
+		$count++;
+	}
+?>
+&lt;/tbody></code></pre>	
 						</div>
 					</div>
 
