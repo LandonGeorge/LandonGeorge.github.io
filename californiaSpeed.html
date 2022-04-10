@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Landon George - Software Engineering</title>
+		<title>Landon George - Software Engineer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -47,11 +47,77 @@
 					<div id="main">
 						<div class="inner">
 							<h1>California Speed Game</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<span><h2>Technologies used: daksdladsadskladnmslkadsads</h2></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<span class="image main"><img src="images/californiaSpeedGameplay.gif" alt="" /></span>
+							<span><h2>Technologies used: .NET, C#, HTML5, Bootstrap, SignalR, and JQUERY </h2></span>
+                            <a href="https://github.com/LandonGeorge/CS3750_Speed" class="button default">Visit Repo</a>
+							<p>This group project utilized SignalR for websockets in order to have high speed communication between two players. The player is able to drag and drop cards onto the piles within the rules of the game of California Speed. My role in this project was creating the initial game UI layout and creating the logic that prevents a deadlock between both players if no cards in their hands' are able to be played on the current play piles in the middle. A particular challenge I faced while writing the deadlock logic was figuring out how my functions needed to be written in order to communicate with our controller and model. I solved this issue by working with teamates and learning how the MVC pattern works resulting in me being able to complete my deadlock functions. </p>
+                            <h2>Play Pile Deadlock Prevention Code</h2>
+                            <pre><code>
+//Used to check if both players' hand of cards are playable on the current play piles. 
+//If not both players' hand of cards are reshuffled
+public void playPilesPlayable()
+{
+    Card newPlayPileCard;
+
+    while(!playerHandPlayable(PlayerOneHand) && !playerHandPlayable(PlayerTwoHand))
+    {
+        if(PickPileOne.Count() == 0 || PickPileTwo.Count() == 0)
+        {
+            Reshuffle();
+            Console.WriteLine("Reshuffled deck");
+        }
+        newPlayPileCard = PickPileOne.Last();
+        moveCard(PlayPileOne, PickPileOne, newPlayPileCard);
+
+        newPlayPileCard = PickPileTwo.Last();
+        moveCard(PlayPileTwo,PickPileTwo, newPlayPileCard);
+
+        Console.WriteLine("Drew new cards for playPiles");
+    }
+}
+
+//Used to check a specified players current hand against both play piles to see if any of their cards are able to be played
+public bool playerHandPlayable(List<Card> playerHand)
+{
+    bool pileOnePlayable = false;
+    bool pileTwoPlayable = false;
+
+    //Check the players' hand against both play piles
+    foreach (var card in playerHand)
+    {
+        if ((card.Value + 1) % 13 == PlayPileOne.Last().Value || (PlayPileOne.Last().Value + 1) % 13 == card.Value)
+        {
+            pileOnePlayable = true;
+        }
+
+        if ((card.Value + 1) % 13 == PlayPileTwo.Last().Value || (PlayPileTwo.Last().Value + 1) % 13 == card.Value)
+        {
+            pileTwoPlayable = true;
+        }
+
+    }
+
+    if(pileOnePlayable || pileTwoPlayable)
+    {
+        return true;
+    }
+
+    return false;
+}
+
+//Moves specified card from an origin pile to a destination pile
+public void moveCard(List<Card> destinationPile, List<Card> originPile, Card takenCard )
+{
+    //Specified card to be moved
+    Card card = takenCard;
+
+    //Moves the specified card to the specified destination pile
+    destinationPile.Add(card);
+    //Removes the specified card from the origin pile
+    originPile.Remove(card);
+}
+                            </code></pre>
+
 						</div>
 					</div>
 

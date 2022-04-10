@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Landon George - Software Engineering</title>
+		<title>Landon George - Software Engineer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -49,12 +49,13 @@
 							<h1>High/Low Game</h1>
 							<span class="image main"><img src="images/highLowGuessing.gif" alt="" /></span>
 							<span><h2>Technologies/Software used: PHP, Bootstrap, MySQL, HTML5, CSS3, and PhpStorm</h2></span>
-							<p>In this individual project I utilized PHP for server-side code in order to hide some parts of the game logic. One specific part that is hidden from the user on the front-end is the number they are trying to guess. This application also does user account creation and authentication utilizing a MySQL database and SHA256 hashing in order to protect user passwords. One particular challenge I faced during this project was displaying a high score table of the top 10 scores when the user won. I overcame this challenge by utilizing PHP to fetch data from my database and display it in a table using a while loop to create new rows for each score entry. In addition this website is hosted via InfinityFree with SSL enabled and can be visted with the button below!</p>
+							<p>In this individual project I utilized PHP for server-side code in order to hide some parts of the game logic. One specific part that is hidden from the user on the front-end is the number they are trying to guess, which is randomly generated server-side. This application also does user account creation and authentication utilizing a MySQL database and SHA256 hashing in order to protect user passwords. One particular challenge I faced during this project was displaying a high score table of the top 10 scores when the user won. I overcame this challenge by utilizing PHP to fetch data from my database and display it in a table using a while loop to create new rows for each score entry. In addition this website is hosted via InfinityFree with SSL enabled and can be visted with the button below!</p>
 							<a href="https://landongeorgespring2022.epizy.com/HighLow/" class="button primary">Try It!</a>
-							<a href="https://landongeorgespring2022.epizy.com/HighLow/" class="button default">Visit Repo</a>
+							<a href="https://github.com/LandonGeorge/HighLowGame" class="button default">Visit Repo</a>
 							<h2>High Score Table Code</h2>
 							<pre><code>
-&lt;tbody>&lt;?php
+&lt;tbody>
+&lt;?php
 	//Prepare select statement
 	$sql = "SELECT username,score,timestamp FROM HighScores ORDER BY score ASC LIMIT 10";
 	$result = mysqli_query($link,$sql);
