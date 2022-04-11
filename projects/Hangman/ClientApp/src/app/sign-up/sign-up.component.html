@@ -1,0 +1,28 @@
+<div class="alert alert-danger" *ngIf="passwordsDontMatch === true && hasClickedLogin === true">
+  Passwords don't match!
+</div>
+<div class="alert alert-success" *ngIf="accountCreated === true">
+  Account created successfully!
+</div>
+<div class="alert alert-danger" *ngIf="accountCreated === false">
+  Account creation unsuccessful. Please try a different username
+</div>
+
+
+<div class="card col-6 mx-auto text-center">
+  <h1 class="card-title text-center my-3">Sign up</h1>
+  <div class="form-group mx-3 justify-content-start">
+    <div class="container">
+      <div class="row my-2">
+        <input type="text" class="form-control col-xs-2 mx-auto" name="username" placeholder="New Username" autocomplete="off" maxlength="20" [(ngModel)]="login.Username" required />
+      </div>
+
+      <div class="row my-2 mt-3">
+        <input type="password" class="form-control col-xs-2 mx-auto" name="password" placeholder="Password" autocomplete="off" maxlength="30" [(ngModel)]="login.Password" required />
+        <input type="password" class="form-control col-xs-2 mx-auto mt-1" name="passwordCheck" placeholder="Verify Password" autocomplete="off" maxlength="30" [(ngModel)]="passwordCheck" required  (keyup.enter)="addUser()"/>
+      </div>
+    </div>
+    <input type="button" class="btn btn-primary mt-1" value="Sign up" (click)="addUser()" />
+  </div>
+  <span class="mb-2">Already have an account? <a [routerLink]="['/login']">Login</a></span>
+</div>

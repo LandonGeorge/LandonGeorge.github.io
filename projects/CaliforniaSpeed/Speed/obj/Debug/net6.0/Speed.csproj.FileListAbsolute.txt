@@ -1,0 +1,120 @@
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\appsettings.json
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.staticwebassets.runtime.json
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.exe
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.deps.json
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.runtimeconfig.json
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.dll
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.pdb
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.AssemblyReference.cache
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.AssemblyInfoInputs.cache
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.AssemblyInfo.cs
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.CoreCompileInputs.cache
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.RazorAssemblyInfo.cache
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.RazorAssemblyInfo.cs
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\bundle\Speed.styles.css
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\projectbundle\Speed.bundle.scp.css
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.dll
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\refint\Speed.dll
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.pdb
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.genruntimeconfig.cache
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\ref\Speed.dll
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\appsettings.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.staticwebassets.runtime.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.exe
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.deps.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.runtimeconfig.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.dll
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.pdb
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.AssemblyReference.cache
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.AssemblyInfoInputs.cache
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.AssemblyInfo.cs
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.CoreCompileInputs.cache
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.RazorAssemblyInfo.cache
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.RazorAssemblyInfo.cs
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\bundle\Speed.styles.css
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\projectbundle\Speed.bundle.scp.css
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.dll
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\refint\Speed.dll
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.pdb
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.genruntimeconfig.cache
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\ref\Speed.dll
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\bin\Debug\net6.0\appsettings.json
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.staticwebassets.runtime.json
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.exe
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.deps.json
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.runtimeconfig.json
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.dll
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.pdb
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.AssemblyReference.cache
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.AssemblyInfoInputs.cache
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.AssemblyInfo.cs
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.CoreCompileInputs.cache
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.RazorAssemblyInfo.cache
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.RazorAssemblyInfo.cs
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\bundle\Speed.styles.css
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\projectbundle\Speed.bundle.scp.css
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.dll
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\refint\Speed.dll
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.pdb
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.genruntimeconfig.cache
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\obj\Debug\net6.0\ref\Speed.dll
+C:\Users\dorga\OneDrive\Documents\WSUHomework\Spring2022\CS3750\Speed\CS3750_Speed\Speed\bin\Debug\net6.0\libman.json
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\libman.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\appsettings.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\libman.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.staticwebassets.runtime.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.exe
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.deps.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.runtimeconfig.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.dll
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\Speed.pdb
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.AssemblyReference.cache
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.AssemblyInfoInputs.cache
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.AssemblyInfo.cs
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.CoreCompileInputs.cache
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.RazorAssemblyInfo.cache
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.RazorAssemblyInfo.cs
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\bundle\Speed.styles.css
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\scopedcss\projectbundle\Speed.bundle.scp.css
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.dll
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\refint\Speed.dll
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.pdb
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.genruntimeconfig.cache
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\ref\Speed.dll
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.CopyComplete
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\package-lock.json
+C:\Users\chase\Documents\School\CS 3750\CS3750_Speed\Speed\bin\Debug\net6.0\package.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\libman.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\package-lock.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\package.json
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\LandonGeorge\Desktop\school\CS3750\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.CopyComplete
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\package-lock.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\package.json
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Hunter Mikkelsen\Documents\GitHub\CS3750_Speed\Speed\obj\Debug\net6.0\Speed.csproj.CopyComplete

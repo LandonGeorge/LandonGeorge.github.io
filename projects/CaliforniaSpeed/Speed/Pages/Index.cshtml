@@ -1,0 +1,68 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <a class="btn btn-primary" asp-page="Game">Play Game</a>
+</div>*@
+
+<div class="container">
+    <div class="Card">
+        <div class="card-body">
+            <h2>Speed</h2>
+            <p>Speed is a game for two players or more of the shedding family of card games,
+               in which <u>each player tries to get rid of all of their cards first.</u></p>
+            <h2>How to Play</h2>
+            <p>The round begins when the players each flip one of the face-down cards in the center simultaneously.
+               Using cards from their own hand, the players must then discard their cards one by one, using only one hand,
+               matching cards so that each card played is either one number above,
+               one number below, or the same number as the two cards on top of the center stacks. This must be done without hesitating to shuffle cards
+               or otherwise delay the game. Only one card can be placed at a time.
+           </p>
+            <p>The ace and king can be placed on top of each other, forming a looping
+               sequence. Whenever the number of cards in a player's hands drops <u>below five</u>, he or she has to draw out of their respective pile back up to
+               five cards until that player's draw pile is depleted. When both players run out of options for play they simultaneously flip a card from the
+               side piles onto the top of the central piles. If these piles become depleted, the central stacks are shuffled individually and are placed
+               face-down as new side piles from which cards can be flipped.
+           </p>
+           <h2>Ending the Game</h2>
+           <p>A player wins by running out of cards in their hand and draw pile before the other player.
+                The player with no cards in their hand must say Speed in order for the other player to officially lose.
+                Speed is typically played in a two-wins-out-of-three win. If a player has a card to place it must be placed.
+           </p>
+           <p> All cards will end up on the table and out of hands of the players if there are no mistakes. </p>
+        </div>
+    </div>
+
+    @*<div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-2">User</div>
+        <div class="col-4"><input type="text" id="userInput" /></div>
+    </div>
+    <div class="row">
+        <div class="col-2">Message</div>
+        <div class="col-4"><input type="text" id="messageInput" /></div>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-6">
+            <input type="button" id="sendButton" value="Send Message" />
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <ul id="messagesList"></ul>
+    </div>*@
+</div>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/site.js"></script>

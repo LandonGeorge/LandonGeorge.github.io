@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "TuQQzMmh4JruZnKTzoLu0fVMqGg9LHF+XnIB2qDHb42cloxAXu6Tl7ptZhj+Mwxex4SvyxewWyUNWZgvn9J7hQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chase\\Documents\\School\\CS 3750\\CS3750_Speed\\Speed\\Speed.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chase\\.nuget\\packages\\microsoft.aspnet.signalr.core\\2.4.3\\microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.SignalR.Core 2.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.SignalR.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

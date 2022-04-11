@@ -1,0 +1,31 @@
+<div class="card col-md-8 mx-auto mt-3 p-3">
+  <h1 class="card-title mx-auto my-3">High Scores</h1>
+  <!-- need to see if just won, print out how many guesses -->
+  <div class="col-md-9 mx-auto my-3">
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col" class='text-center'>#</th>
+          <th scope="col" class='text-center'>Username</th>
+          <th scope="col" class="text-center">Word</th>
+          <th scope="col" class='text-center'>Score</th>
+          <th scope="col" class='text-center'>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- need to check for high score in table, highlight row -->
+        <tr *ngFor="let score of highScores; let i = index">
+          <th scope="row" class="text-center">{{ i + 1 }}</th>
+          <td class="text-center">{{ score.username }}</td>
+          <td class="text-center">{{ score.word }}</td>
+          <td class='text-center'>{{ score.score }}</td>
+          <td class='text-center'>{{ score.dateTime | date : 'short' }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="d-grid gap-2 d-md-block mx-auto">
+    <a class="btn btn-primary" [routerLink]="['/']">Play!</a>
+  </div>
+</div>

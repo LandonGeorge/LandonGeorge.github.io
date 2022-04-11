@@ -1,0 +1,20 @@
+<div class="alert alert-danger" *ngIf="invalidLogin === true && hasClickedLogin === true">
+  Username or password is incorrect.
+</div>
+<div class="alert alert-success" *ngIf="validLogin === true && hasClickedLogin === true">
+  Signed in successfully. {{ http.token }} {{ http.expiration | date : 'short' }}
+</div>
+
+
+
+<div class="card col-6 mx-auto text-center">
+  <h1 class="card-title text-center my-3">Login</h1>
+  <div class="form-group mx-3 justify-content-start">
+    <input id="username" type="text" class="form-control col-xs-2 mx-auto" name="username" placeholder="Username" autocomplete="off" maxlength="20" [(ngModel)]="login.Username" />
+    <input id="password" type="password" class="form-control col-xs-2 mx-auto mt-1" name="password" placeholder="Password" autocomplete="off" maxlength="30" [(ngModel)]="login.Password" (keyup.enter)="loginUser()"/>
+
+    <input class="btn btn-primary mt-1" type="button" value="Login" (click)="loginUser()" />
+  </div>
+  <span class="mb-2">Don't have an account? <a [routerLink]="['/sign-up']">Sign Up</a></span>
+</div>
+
