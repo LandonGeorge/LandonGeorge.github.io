@@ -40,18 +40,26 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
+							<li><a href="documents/Landon_George_Resume_WEB.pdf" download>Resume</a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Scholarship App Maintenance</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<span><h2>Technologies/Software used: PHP, Bootstrap, MySQL, HTML5, CSS3, and PhpStorm</h2></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<h1>Scholarship App .NET Migration/Bug fixing Project</h1>
+							<span class="image main"><img src="images/scholarshipApp.PNG" alt="" /></span>
+							<span><h2>Technologies/Software used: .NET Core, C#, Razor Pages, Entity Framework, HTML5, CSS3, Bootstrap</h2></span>
+							<p>For this group project we were tasked with taking an existing .NET Core 2.0 web application a previous CAPSTONE group made and migrating it to .NET Core 6.0 and fixing/finding various bugs. My responsibility in this project was adding a section to the student profile for high school related STEM activities and migrating the project from .NET Core 2.1 to 2.2. and then 2.2 to 2.3 This was a challenging project that had many obstacles. One of which I ran into which was migrating from 2.2 to 2.3. While trying to migrate the project following Microsoft's documentation there were conflicts between outdated functions and libraries that were crucial to making the project run and adapting the codebase to follow what is now Razor Pages required major refactoring. After consulting with my team we eventually found a migration assistant that allowed us to skip over the version by version migration and go straight to .NET 6.0. This was an interesting project and gave me first hand experience of dealing with a large scale professionally written codebase.</p>
+							<a href="https://github.com/LandonGeorge/CS3750_Scholarship" class="button default">Visit Repo</a>
+							<h2>High School STEM Activites Field Code</h2>
+							<pre><code>
+&lt;div class="form-group">
+	&lt;label asp-for="STEMHighSchoolClubsAndActivitiesHistory" class="control-label">&lt;/label>
+	&lt;input asp-for="STEMHighSchoolClubsAndActivitiesHistory" class="form-control" rows="4" />
+	&lt;span asp-validation-for="STEMHighSchoolClubsAndActivitiesHistory" class="text-danger>&lt;/span>
+&lt;/div>
+							</code></pre>
 						</div>
 					</div>
 
@@ -66,7 +74,7 @@
 											<input type="text" name="name" id="name" placeholder="Name" />
 										</div>
 										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
+											<input type="email" name="_replyto" id="email" placeholder="Email" />
 										</div>
 										<div class="field">
 											<textarea name="message" id="message" placeholder="Message"></textarea>
