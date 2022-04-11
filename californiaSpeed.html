@@ -50,7 +50,7 @@
 							<span class="image main"><img src="images/californiaSpeedGameplay.gif" alt="" /></span>
 							<span><h2>Technologies used: .NET, C#, HTML5, Bootstrap, SignalR, and JQUERY </h2></span>
                             <a href="https://github.com/LandonGeorge/CS3750_Speed" class="button default">Visit Repo</a>
-							<p>This group project utilized SignalR for websockets in order to have high speed communication between two players. The player is able to drag and drop cards onto the piles within the rules of the game of California Speed. My role in this project was creating the initial game UI layout and creating the logic that prevents a deadlock between both players if no cards in their hands' are able to be played on the current play piles in the middle. A particular challenge I faced while writing the deadlock logic was figuring out how my functions needed to be written in order to communicate with our controller and model. I solved this issue by working with teamates and learning how the MVC pattern works resulting in me being able to complete my deadlock functions. </p>
+							<p>This group project utilized SignalR for websockets in order to have high speed communication between two players. The player is able to drag and drop cards onto the piles within the rules of the game of California Speed. My role in this project was creating the initial game UI layout and creating the logic that prevents a deadlock between both players if no cards in their hands' are able to be played on the current play piles in the middle. A particular challenge I faced while writing the deadlock logic was figuring out how my functions needed to be written in order to communicate with our controller and model. I solved this issue by working with teamates and learning how the MVC pattern works resulting in me being able to complete my deadlock functions efficently. I also refactored redundant code that was found within another team members code and my initial deadlock prevention code and created the moveCard function. The moveCard function seen below takes a specified card from and origin pile and moves it to a specified pile.</p>
                             <h2>Play Pile Deadlock Prevention Code</h2>
                             <pre><code>
 //Used to check if both players' hand of cards are playable on the current play piles. 
@@ -126,7 +126,7 @@ public void moveCard(List<Card> destinationPile, List<Card> originPile, Card tak
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
-								<form method="post" action="#">
+								<form method="POST" action="https://formspree.io/f/xknyqoob">
 									<div class="fields">
 										<div class="field half">
 											<input type="text" name="name" id="name" placeholder="Name" />
