@@ -47,25 +47,65 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Scholarship App .NET Migration/Bug fixing Project</h1>
-							<span class="image main"><img src="images/scholarshipApp.PNG" alt="" /></span>
-							<span><h2>Technologies/Software used: .NET Core, C#, Razor Pages, Entity Framework, HTML5, CSS3, Bootstrap</h2></span>
+							<h1>Web3 Ethereum DAPP</h1>
+							<a href="https://cryptosquared.net/" class="button primary">Try It!</a>
+							<a href="https://github.com/LandonGeorge/LandonGeorge.github.io/tree/main/projects/HighLowGame" class="button default">Visit Repo</a>
+							<span class="image main"><img src="images/web3.gif" alt="" /></span>
+							<span><h2>Technologies/Software used: Solidity, React, Hardhat, Alchemy, and Vite</h2></span>
 							<ul>
-								<li>Software Engineering 2 Group Project</li>
-								<li>Codebase was a CAPSTONE project from 2018 that prior students created</li>
-								<li>Migrated from .NET Core to .NET Core 6.0</li>
-								<li>Found/fixed various bugs</li>
+								<li>Personal Project</li>
+								<li>Smart contract created with Solidity and deployed with Alchemy and Hardhat</li>
+								<li>Gets user wallet information through browser</li>
+								<li>Sends blockchain transactions using Ropsten Ethereum</li>
+								<li>Utilizes Giphy API to find gifs for a transaction with a given keyword</li>
 							</ul>
-							<p>My responsibility in this project was adding a section to the student profile for high school related STEM activities and migrating the project from .NET Core 2.1 to 2.2. and then 2.2 to 2.3 This was a challenging project that had many obstacles. One of which I ran into which was migrating from 2.2 to 2.3. While trying to migrate the project following Microsoft's documentation there were conflicts between outdated functions and libraries that were crucial to making the project run and adapting the codebase to follow what is now Razor Pages required major refactoring. After consulting with my team we eventually found a migration assistant that allowed us to skip over the version by version migration and go straight to .NET 6.0. This was an interesting project and gave me first hand experience of dealing with a large scale professionally written codebase.</p>
-							<a href="https://github.com/LandonGeorge/LandonGeorge.github.io/tree/main/projects/ScholarshipApp" class="button default">Visit Repo</a>
-							<h2>High School STEM Activities Field Code</h2>
+							<p>This project was a ton of fun and was created using a youtube tutorial. I learned so much about how the blockchain functions and how to interact with a smart contract from my front-end. A major problem I ran into right at the end of my project is that I made a typo in my smart contract which caused my receiver address to be undefined, and I had already deployed it by the time I figured that out. This was a major issue because the smart contract acts as a backend server for decentralized applications and once its deployed its immutable meaning you can't simply re-upload your code. In order to fix any issues with a smart contract you have to re-upload your smart contract entirely and re-link the contract address and new ABI. Through fixing this error I also learned that its very expensive to make mistakes by having to deploy contracts again and luckily I used a test network with Ropsten ETH, otherwise i'd be spending $500+ dollars in mainnet ETHER if I chose to deploy my app on the main network.</p>
+							<h2>Solidity Smart Contract</h2>
 							<pre><code>
-&lt;div class="form-group">
-	&lt;label asp-for="STEMHighSchoolClubsAndActivitiesHistory" class="control-label">&lt;/label>
-	&lt;input asp-for="STEMHighSchoolClubsAndActivitiesHistory" class="form-control" rows="4" />
-	&lt;span asp-validation-for="STEMHighSchoolClubsAndActivitiesHistory" class="text-danger>&lt;/span>
-&lt;/div>
-							</code></pre>
+//SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.0;
+
+
+contract Transactions {
+	uint256 transactionCount;
+
+
+
+	event Transfer(address from, address receiver, uint amount, string message, uint256 timestamp, string keyword);
+
+
+	struct TransferStruct {
+		//properties of the object
+		address sender;
+		address receiver;
+		uint amount;
+		string message;
+		uint256 timestamp;
+		string keyword;
+	}
+
+
+	TransferStruct[] transactions;
+
+
+	function addToBlockchain(address payable receiver, uint amount, string memory message, string memory keyword) public{
+		transactionCount += 1;
+		//only adds our transaction to the array, doesn't actually make the transaction on the blockchain
+		transactions.push(TransferStruct(msg.sender, receiver, amount, message, block.timestamp, keyword));
+
+		//executes the transaction on the blockchain
+		emit Transfer(msg.sender, receiver, amount, message, block.timestamp, keyword);
+	}
+
+	function getAllTransactions() public view returns (TransferStruct[] memory){
+		return transactions;
+	}
+
+	function getTransactionCount() public view returns (uint256){
+		return transactionCount;
+	}
+}</code></pre>
+
 						</div>
 					</div>
 
